@@ -38,7 +38,7 @@
 
                 <div v-if="route == 2" class="rightMain ">
                     <div style="width: 400px;height: 400px">
-                        <barChart :width="'400'" :height="'40'" :color = "'#89e20d'" :value="0.9"></barChart>
+                        <BarChart :width="'400'" :height="'40'" :color = "'#89e20d'" :value="0.9"></BarChart>
                     </div>
                 </div>
 
@@ -67,13 +67,14 @@ import {ThreeNumInGrid} from "../lib/index.common.js";
 // import WaterBall from "../packages/Abstruse/vueConponents/WaterBall/waterBall";
 import {WaterBall} from "../lib/index.common.js";
 
-import barChart from "../packages/Abstruse/vueConponents/singleRate/barChart";
+// import barChart from "../packages/Abstruse/vueConponents/singleRate/barChart";
+import {BarChart} from "../lib/index.common.js";
 
 
 
 export default {
     components: {
-        ThreeNumInGrid, PictureTree, ScrollTable, fiveNumber,WaterBall,barChart
+        ThreeNumInGrid, PictureTree, ScrollTable, fiveNumber,WaterBall,BarChart
     },
     data: function () {
         return {
