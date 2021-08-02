@@ -7,9 +7,11 @@
                     <div class="btns" @click="route = 8">ScrollTable滚动列表</div>
                     <div class="btns" @click="route = 9">FiveNumber</div>
                     <div class="btns" @click="route = 10">ThreeNumInGrid</div>
+                    <div class="btns" @click="route = 1">WaterBall</div>
                 </div>
             </div>
             <div class="right">
+
 
                 <div v-if="route == 7" class="rightMain ">
                     <PictureTree></PictureTree>
@@ -25,6 +27,10 @@
 
                 <div v-if="route == 10" class="rightMain ">
                     <ThreeNumInGrid></ThreeNumInGrid>
+                </div>
+
+                <div v-if="route == 1" class="rightMain ">
+                    <div>111</div>
                 </div>
 
             </div>
@@ -48,6 +54,8 @@ import {fiveNumber} from "../lib/index.common.js";
 
 // import ThreeNumInGrid from "../packages/Abstruse/vueConponents/EchartInGrid/ThreeNumInGrid";
 import {ThreeNumInGrid} from "../lib/index.common.js";
+
+
 
 export default {
     components: {
