@@ -8,6 +8,7 @@
                     <div class="btns" @click="route = 9">FiveNumber</div>
                     <div class="btns" @click="route = 10">ThreeNumInGrid</div>
                     <div class="btns" @click="route = 1">WaterBall</div>
+                    <div class="btns" @click="route = 2">barChart</div>
                 </div>
             </div>
             <div class="right">
@@ -30,7 +31,15 @@
                 </div>
 
                 <div v-if="route == 1" class="rightMain ">
-                    <div>111</div>
+                    <div style="width: 400px;height: 400px">
+                        <WaterBall></WaterBall>
+                    </div>
+                </div>
+
+                <div v-if="route == 2" class="rightMain ">
+                    <div style="width: 400px;height: 400px">
+                        <barChart :width="'400'" :height="'40'" :color = "'#89e20d'" :value="0.9"></barChart>
+                    </div>
                 </div>
 
             </div>
@@ -55,11 +64,15 @@ import {fiveNumber} from "../lib/index.common.js";
 // import ThreeNumInGrid from "../packages/Abstruse/vueConponents/EchartInGrid/ThreeNumInGrid";
 import {ThreeNumInGrid} from "../lib/index.common.js";
 
+import WaterBall from "../packages/Abstruse/vueConponents/WaterBall/waterBall";
+
+import barChart from "../packages/Abstruse/vueConponents/singleRate/barChart";
+
 
 
 export default {
     components: {
-        ThreeNumInGrid, PictureTree, ScrollTable, fiveNumber
+        ThreeNumInGrid, PictureTree, ScrollTable, fiveNumber,WaterBall,barChart
     },
     data: function () {
         return {
