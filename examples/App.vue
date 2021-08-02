@@ -64,7 +64,8 @@ import {fiveNumber} from "../lib/index.common.js";
 // import ThreeNumInGrid from "../packages/Abstruse/vueConponents/EchartInGrid/ThreeNumInGrid";
 import {ThreeNumInGrid} from "../lib/index.common.js";
 
-import WaterBall from "../packages/Abstruse/vueConponents/WaterBall/waterBall";
+// import WaterBall from "../packages/Abstruse/vueConponents/WaterBall/waterBall";
+import {WaterBall} from "../lib/index.common.js";
 
 import barChart from "../packages/Abstruse/vueConponents/singleRate/barChart";
 
