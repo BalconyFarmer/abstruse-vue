@@ -10,7 +10,7 @@
             </div>
         </div>
         <div class="allBottom">
-            注释注释注释
+            {{str}}
         </div>
     </div>
 </template>
@@ -24,6 +24,12 @@ export default {
     name: "A_1PictureTree.vue",
     components: {
         WaterBall
+    },
+    data() {
+        return {
+            str: "<WaterBall :data=\"0.7\" :special=\"true\"></WaterBall>" +
+                "<WaterBall :data=\"0.7\" :special=\"false\"></WaterBall>"
+        }
     }
 }
 </script>
