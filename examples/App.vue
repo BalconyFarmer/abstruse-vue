@@ -41,7 +41,8 @@
                 </div>
 
                 <div v-if="route == 10" class="rightMain ">
-                    <ThreeNumInGrid></ThreeNumInGrid>
+<!--                    <ThreeNumInGrid></ThreeNumInGrid>-->
+                    <A_6ThreeNumInGrid></A_6ThreeNumInGrid>
                 </div>
 
             </div>
@@ -67,10 +68,11 @@ import A_2BarChart from "./views/A_2BarChart";
 import A_3PictureTree from "./views/A_3PictureTree";
 import A_4ScrollTable from "./views/A_4ScrollTable";
 import A_5FiveNumber from "./views/A_5FiveNumber";
+import A_6ThreeNumInGrid from "./views/A_6ThreeNumInGrid";
 
 export default {
     components: {
-        A_5FiveNumber,A_4ScrollTable,A_0Init, ThreeNumInGrid,  ScrollTable, A_1PictureTree, A_2BarChart,A_3PictureTree
+        A_6ThreeNumInGrid,A_5FiveNumber,A_4ScrollTable,A_0Init, ThreeNumInGrid,  ScrollTable, A_1PictureTree, A_2BarChart,A_3PictureTree
     },
     data: function () {
         return {
