@@ -7,6 +7,11 @@ import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 import "./views/styles/base.scss"
 
+import { PrismEditor } from 'vue-prism-editor';
+import 'vue-prism-editor/dist/prismeditor.min.css'; // import the styles
+Vue.component('PrismEditor', PrismEditor);
+
+
 Vue.config.productionTip = false
 Vue.use(ElementUI);
 
