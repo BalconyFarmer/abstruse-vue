@@ -1,5 +1,5 @@
 <template>
-    <div style="width: 100%;height: 10%">
+    <div style="width: 100%;height: 10%;color: white">
         <div class="rank-head rank-row">
             <div class="rank">名次</div>
             <div class="pm-name">党组织</div>

@@ -32,7 +32,8 @@
                 </div>
 
                 <div v-if="route == 8" class="rightMain ">
-                    <ScrollTable></ScrollTable>
+<!--                    <ScrollTable></ScrollTable>-->
+                    <A_4ScrollTable></A_4ScrollTable>
                 </div>
 
                 <div v-if="route == 9" class="rightMain ">
@@ -68,10 +69,11 @@ import {ThreeNumInGrid} from "../lib/index.common.js";
 
 import A_2BarChart from "./views/A_2BarChart";
 import A_3PictureTree from "./views/A_3PictureTree";
+import A_4ScrollTable from "./views/A_4ScrollTable";
 
 export default {
     components: {
-        A_0Init, ThreeNumInGrid,  ScrollTable, fiveNumber, A_1PictureTree, A_2BarChart,A_3PictureTree
+        A_4ScrollTable,A_0Init, ThreeNumInGrid,  ScrollTable, fiveNumber, A_1PictureTree, A_2BarChart,A_3PictureTree
     },
     data: function () {
         return {
