@@ -63,7 +63,7 @@ export default {
                     img: "http://zt.psns.1237125.cn/uploads/2020/Photos/11/27/202011271009365345.jpg"
                 }],
             },
-            code: "<PictureTree :picData = picData></PictureTree>\n" +
+            code: "<PictureTree :picData = picData @toMain=\"nextPage($event)\"></PictureTree>\n" +
                 "            picData:{\n" +
                 "                data1: [{\n" +
                 "                    name: \"xxx\",\n" +
