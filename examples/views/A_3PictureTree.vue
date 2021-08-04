@@ -2,7 +2,7 @@
 
     <div class="all">
         <div class="allTop">
-            <PictureTree :picData = picData></PictureTree>
+            <PictureTree :picData = picData @toMain="nextPage($event)"></PictureTree>
         </div>
         <div class="allBottom">
             <CodeBlock :codeStr="code"></CodeBlock>
@@ -20,6 +20,11 @@ export default {
     name: "A_3PictureTree.vue",
     components: {
         PictureTree,CodeBlock
+    },
+    methods: {
+        nextPage(params) {
+            alert(params)
+        }
     },
     data() {
         return {

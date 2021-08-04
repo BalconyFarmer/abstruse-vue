@@ -2,7 +2,7 @@
     <div class="pictrueTreeAll">
         <div class="first">
             <div class="item" v-for="item in picData.data1">
-                <img :src="item.img"/>
+                <img @click="onClick(item.img)" :src="item.img"/>
                 <div class="text">书记: {{ item.name }}</div>
                 <div class="text">{{ item.age }}岁</div>
                 <div class="text">{{ item.edu }}</div>
@@ -10,7 +10,7 @@
         </div>
         <div class="first">
             <div class="item" v-for="item in picData.data2">
-                <img :src="item.img"/>
+                <img @click="onClick(item.img)" :src="item.img"/>
                 <div class="text">副书记: {{ item.name }}</div>
                 <div class="text">{{ item.age }}岁</div>
                 <div class="text">{{ item.edu }}</div>
@@ -18,7 +18,7 @@
         </div>
         <div class="third">
             <div class="item" v-for="item in picData.data3">
-                <img :src="item.img"/>
+                <img @click="onClick(item.img)" :src="item.img"/>
                 <div class="text">平民: {{ item.name }}</div>
                 <div class="text">{{ item.age }}岁</div>
                 <div class="text">{{ item.edu }}</div>
@@ -35,6 +35,11 @@ export default {
         return {
 
         }
+    },
+    methods: {
+        onClick(params) {
+            this.$emit("toMain",params);
+        },
     }
 
 };
