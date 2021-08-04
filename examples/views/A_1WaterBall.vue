@@ -8,7 +8,9 @@
                 <WaterBall :data="0.7" :special="false"></WaterBall>
             </div>
         </div>
-        <CodeBlock :codeStr="code"></CodeBlock>
+        <div class="allBottom">
+            <CodeBlock :codeStr="code"></CodeBlock>
+        </div>
     </div>
 </template>
 
@@ -21,17 +23,15 @@ import CodeBlock from "./commonComponents/CodeBlock";
 export default {
     name: "A_1PictureTree.vue",
     components: {
-        WaterBall,CodeBlock
+        WaterBall, CodeBlock
     },
     data() {
         return {
             code: "<WaterBall :data=\"0.7\" :special=\"true\"></WaterBall>\n" +
-                  "<WaterBall :data=\"0.7\" :special=\"false\"></WaterBall> ",
+                "<WaterBall :data=\"0.7\" :special=\"false\"></WaterBall> ",
         }
     },
-    methods: {
-
-    },
+    methods: {},
 }
 </script>
 
