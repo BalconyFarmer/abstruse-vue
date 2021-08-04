@@ -76,7 +76,7 @@ export default {
     },
     data: function () {
         return {
-            route: 0,
+            route: 8,
         }
     },
     watch: {

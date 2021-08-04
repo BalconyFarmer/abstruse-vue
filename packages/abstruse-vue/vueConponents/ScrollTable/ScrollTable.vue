@@ -1,5 +1,5 @@
 <template>
-    <div style="width: 100%;height: 10%;color: white">
+    <div style="width: 100%;height: 100%;color: white">
         <div class="rank-head rank-row">
             <div class="rank">名次</div>
             <div class="pm-name">党组织</div>
@@ -28,6 +28,17 @@ export default {
         return {
             activeList: [
                 {pm_name: "xxx支部",po_name: 'xxxxx', po_full_name: "110"},
+                {pm_name: "xxx支部",po_name: 'xxxxx', po_full_name: "110"},
+                {pm_name: "xxx支部",po_name: 'xxxxx', po_full_name: "110"},
+                {pm_name: "xxx支部",po_name: 'xxxxx', po_full_name: "110"},
+                {pm_name: "xxx支部",po_name: 'xxxxx', po_full_name: "110"},
+                {pm_name: "xxx支部",po_name: 'xxxxx', po_full_name: "110"},
+                {pm_name: "xxx支部",po_name: 'xxxxx', po_full_name: "110"},
+                {pm_name: "xxx支部",po_name: 'xxxxx', po_full_name: "110"},
+                {pm_name: "xxx支部",po_name: 'xxxxx', po_full_name: "110"},
+                {pm_name: "xxx支部",po_name: 'xxxxx', po_full_name: "110"},
+                {pm_name: "xxx支部",po_name: 'xxxxx', po_full_name: "110"},
+                {pm_name: "xxx支部",po_name: 'xxxxx', po_full_name: "110"},                {pm_name: "xxx支部",po_name: 'xxxxx', po_full_name: "110"},
                 {pm_name: "xxx支部",po_name: 'xxxxx', po_full_name: "110"},
                 {pm_name: "xxx支部",po_name: 'xxxxx', po_full_name: "110"},
                 {pm_name: "xxx支部",po_name: 'xxxxx', po_full_name: "110"},

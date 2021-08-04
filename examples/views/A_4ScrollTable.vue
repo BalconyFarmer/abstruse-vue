@@ -2,10 +2,8 @@
 
     <div class="all">
         <div class="allTop">
-            <div style="width: 400px;height: 200px;border: 4px solid yellow">
                 <ScrollTable></ScrollTable>
 
-            </div>
         </div>
         <div class="allBottom">
             <CodeBlock :codeStr="code"></CodeBlock>
