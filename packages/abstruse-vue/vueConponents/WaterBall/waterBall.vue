@@ -13,6 +13,7 @@
 <script>
 import Charts from "../charts";
 import  'echarts-liquidfill'
+
 export default {
     name: "water-ball",
     components: { Charts },

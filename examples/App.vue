@@ -10,7 +10,6 @@
                     <div class="btns" @click="route = 8">ScrollTable</div>
                     <div class="btns" @click="route = 9">FiveNumber</div>
                     <div class="btns" @click="route = 10">ThreeNumInGrid</div>
-
                 </div>
             </div>
             <div class="right">
@@ -76,7 +75,7 @@ export default {
     },
     data: function () {
         return {
-            route: 8,
+            route: 7,
         }
     },
     watch: {

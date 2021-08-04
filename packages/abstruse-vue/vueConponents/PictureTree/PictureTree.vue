@@ -1,93 +1,27 @@
 <template>
     <div class="pictrueTreeAll">
         <div class="first">
-            <div class="item">
-                <div class="headIcon"></div>
-                <div class="text">书记: xxx</div>
-                <div class="text">42岁</div>
-                <div class="text">博士</div>
+            <div class="item" v-for="item in picData.data1">
+                <img :src="item.img"/>
+                <div class="text">书记: {{ item.name }}</div>
+                <div class="text">{{ item.age }}岁</div>
+                <div class="text">{{ item.edu }}</div>
             </div>
         </div>
         <div class="first">
-            <div class="item">
-                <div class="headIcon"></div>
-                <div class="text">副书记: xxx</div>
-                <div class="text">42岁</div>
-                <div class="text">博士</div>
-            </div>
-            <div class="item">
-                <div class="headIcon"></div>
-                <div class="text">副书记: xxx</div>
-                <div class="text">42岁</div>
-                <div class="text">博士</div>
+            <div class="item" v-for="item in picData.data2">
+                <img :src="item.img"/>
+                <div class="text">副书记: {{ item.name }}</div>
+                <div class="text">{{ item.age }}岁</div>
+                <div class="text">{{ item.edu }}</div>
             </div>
         </div>
         <div class="third">
-            <div class="item">
-                <div class="headIcon"></div>
-                <div class="text">书记: xxx</div>
-                <div class="text">42岁</div>
-                <div class="text">博士</div>
-            </div>
-            <div class="item">
-                <div class="headIcon"></div>
-                <div class="text">书记: xxx</div>
-                <div class="text">42岁</div>
-                <div class="text">博士</div>
-            </div>
-            <div class="item">
-                <div class="headIcon"></div>
-                <div class="text">书记: xxx</div>
-                <div class="text">42岁</div>
-                <div class="text">博士</div>
-            </div>
-            <div class="item">
-                <div class="headIcon"></div>
-                <div class="text">书记: xxx</div>
-                <div class="text">42岁</div>
-                <div class="text">博士</div>
-            </div>
-            <div class="item">
-                <div class="headIcon"></div>
-                <div class="text">书记: xxx</div>
-                <div class="text">42岁</div>
-                <div class="text">博士</div>
-            </div>
-            <div class="item">
-                <div class="headIcon"></div>
-                <div class="text">书记: xxx</div>
-                <div class="text">42岁</div>
-                <div class="text">博士</div>
-            </div>
-            <div class="item">
-                <div class="headIcon"></div>
-                <div class="text">书记: xxx</div>
-                <div class="text">42岁</div>
-                <div class="text">博士</div>
-            </div>
-            <div class="item">
-                <div class="headIcon"></div>
-                <div class="text">书记: xxx</div>
-                <div class="text">42岁</div>
-                <div class="text">博士</div>
-            </div>
-            <div class="item">
-                <div class="headIcon"></div>
-                <div class="text">书记: xxx</div>
-                <div class="text">42岁</div>
-                <div class="text">博士</div>
-            </div>
-            <div class="item">
-                <div class="headIcon"></div>
-                <div class="text">书记: xxx</div>
-                <div class="text">42岁</div>
-                <div class="text">博士</div>
-            </div>
-            <div class="item">
-                <div class="headIcon"></div>
-                <div class="text">书记: xxx</div>
-                <div class="text">42岁</div>
-                <div class="text">博士</div>
+            <div class="item" v-for="item in picData.data3">
+                <img :src="item.img"/>
+                <div class="text">平民: {{ item.name }}</div>
+                <div class="text">{{ item.age }}岁</div>
+                <div class="text">{{ item.edu }}</div>
             </div>
         </div>
     </div>
@@ -95,7 +29,14 @@
 
 <script>
 export default {
-    name: "PictureTree"
+    name: "PictureTree",
+    props: ["picData"],
+    data() {
+        return {
+
+        }
+    }
+
 };
 </script>
 
@@ -125,6 +66,11 @@ export default {
             height: 120px;
             background-image: url("./imgs/manAvatar.jpg");
             background-size: cover;
+        }
+
+        img {
+            width: 100px;
+            height: 200px;
         }
     }
 
