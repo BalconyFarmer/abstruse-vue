@@ -37,7 +37,7 @@
                 </div>
 
                 <div v-if="route == 9" class="rightMain ">
-                    <fiveNumber></fiveNumber>
+                    <A_5FiveNumber></A_5FiveNumber>
                 </div>
 
                 <div v-if="route == 10" class="rightMain ">
@@ -60,20 +60,17 @@ import A_1PictureTree from "./views/A_1WaterBall";
 // import ScrollTable from "../packages/abstruse-vue/vueConponents/ScrollTable/ScrollTable";
 import {ScrollTable} from "../lib/index.common.js";
 
-
-// import fiveNumber from "../packages/abstruse-vue/vueConponents/fiveNumber/fiveNumber";
-import {fiveNumber} from "../lib/index.common.js";
-
 // import ThreeNumInGrid from "../packages/abstruse-vue/vueConponents/EchartInGrid/ThreeNumInGrid";
 import {ThreeNumInGrid} from "../lib/index.common.js";
 
 import A_2BarChart from "./views/A_2BarChart";
 import A_3PictureTree from "./views/A_3PictureTree";
 import A_4ScrollTable from "./views/A_4ScrollTable";
+import A_5FiveNumber from "./views/A_5FiveNumber";
 
 export default {
     components: {
-        A_4ScrollTable,A_0Init, ThreeNumInGrid,  ScrollTable, fiveNumber, A_1PictureTree, A_2BarChart,A_3PictureTree
+        A_5FiveNumber,A_4ScrollTable,A_0Init, ThreeNumInGrid,  ScrollTable, A_1PictureTree, A_2BarChart,A_3PictureTree
     },
     data: function () {
         return {
