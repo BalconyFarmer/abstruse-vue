@@ -30,82 +30,10 @@
 <script>
 export default {
     name: "ThreeNumInGrid",
+    props: ["dyjfOption"],
+
     data() {
         return {
-            dyjfOption: [
-                {
-                    MONTH: "1",
-                    num_60: 10,
-                    num_60_90: 10,
-                    num_90: 10
-                },
-                {
-                    MONTH: "2",
-                    num_60: 10,
-                    num_60_90: 10,
-                    num_90: 10
-                },
-                {
-                    MONTH: "3",
-                    num_60: 10,
-                    num_60_90: 10,
-                    num_90: 10
-                },
-                {
-                    MONTH: "4",
-                    num_60: 10,
-                    num_60_90: 10,
-                    num_90: 10
-                },
-                {
-                    MONTH: "5",
-                    num_60: 10,
-                    num_60_90: 10,
-                    num_90: 10
-                },
-                {
-                    MONTH: "6",
-                    num_60: 10,
-                    num_60_90: 10,
-                    num_90: 10
-                },
-                {
-                    MONTH: "7",
-                    num_60: 10,
-                    num_60_90: 10,
-                    num_90: 10
-                },
-                {
-                    MONTH: "8",
-                    num_60: 10,
-                    num_60_90: 10,
-                    num_90: 10
-                },
-                {
-                    MONTH: "9",
-                    num_60: 10,
-                    num_60_90: 10,
-                    num_90: 10
-                },
-                {
-                    MONTH: "10",
-                    num_60: 10,
-                    num_60_90: 10,
-                    num_90: 10
-                }, {
-                    MONTH: "11",
-                    num_60: 10,
-                    num_60_90: 10,
-                    num_90: 10
-                },
-                {
-                    MONTH: "12",
-                    num_60: 10,
-                    num_60_90: 10,
-                    num_90: 10
-                },
-
-            ]
         }
     }
 }
