@@ -31,7 +31,6 @@
                 </div>
 
                 <div v-if="route == 8" class="rightMain ">
-<!--                    <ScrollTable></ScrollTable>-->
                     <A_4ScrollTable></A_4ScrollTable>
                 </div>
 
@@ -40,7 +39,7 @@
                 </div>
 
                 <div v-if="route == 10" class="rightMain ">
-<!--                    <ThreeNumInGrid></ThreeNumInGrid>-->
+                    <!--                    <ThreeNumInGrid></ThreeNumInGrid>-->
                     <A_6ThreeNumInGrid></A_6ThreeNumInGrid>
                 </div>
 
@@ -57,9 +56,6 @@ import "../lib/index.css";
 
 import A_1PictureTree from "./views/A_1WaterBall";
 
-// import ScrollTable from "../packages/abstruse-vue/vueConponents/ScrollTable/ScrollTable";
-import {ScrollTable} from "../lib/index.common.js";
-
 // import ThreeNumInGrid from "../packages/abstruse-vue/vueConponents/EchartInGrid/ThreeNumInGrid";
 import {ThreeNumInGrid} from "../lib/index.common.js";
 
@@ -71,11 +67,11 @@ import A_6ThreeNumInGrid from "./views/A_6ThreeNumInGrid";
 
 export default {
     components: {
-        A_6ThreeNumInGrid,A_5FiveNumber,A_4ScrollTable,A_0Init, ThreeNumInGrid,  ScrollTable, A_1PictureTree, A_2BarChart,A_3PictureTree
+        A_6ThreeNumInGrid, A_5FiveNumber, A_4ScrollTable, A_0Init, ThreeNumInGrid, A_1PictureTree, A_2BarChart, A_3PictureTree
     },
     data: function () {
         return {
-            route: 7,
+            route: 8,
         }
     },
     watch: {

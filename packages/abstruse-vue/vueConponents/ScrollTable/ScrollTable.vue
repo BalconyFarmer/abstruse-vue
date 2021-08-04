@@ -11,7 +11,7 @@
                     :key="index">
                     <div class="rank">NO.{{ index + 1 }}</div>
                     <div class="pm-name">{{ item.po_name }}</div>
-                    <div class="po-name">{{ item.po_full_name}}
+                    <div class="po-name">{{ item.po_full_name }}
                     </div>
                 </li>
             </scroll-ul>
@@ -21,37 +21,14 @@
 
 <script>
 import ScrollUl from './scroll-ul'
+
 export default {
     name: "ScrollTable",
     components: {ScrollUl},
+    props: ["activeList"],
+
     data() {
-        return {
-            activeList: [
-                {pm_name: "xxx支部",po_name: 'xxxxx', po_full_name: "110"},
-                {pm_name: "xxx支部",po_name: 'xxxxx', po_full_name: "110"},
-                {pm_name: "xxx支部",po_name: 'xxxxx', po_full_name: "110"},
-                {pm_name: "xxx支部",po_name: 'xxxxx', po_full_name: "110"},
-                {pm_name: "xxx支部",po_name: 'xxxxx', po_full_name: "110"},
-                {pm_name: "xxx支部",po_name: 'xxxxx', po_full_name: "110"},
-                {pm_name: "xxx支部",po_name: 'xxxxx', po_full_name: "110"},
-                {pm_name: "xxx支部",po_name: 'xxxxx', po_full_name: "110"},
-                {pm_name: "xxx支部",po_name: 'xxxxx', po_full_name: "110"},
-                {pm_name: "xxx支部",po_name: 'xxxxx', po_full_name: "110"},
-                {pm_name: "xxx支部",po_name: 'xxxxx', po_full_name: "110"},
-                {pm_name: "xxx支部",po_name: 'xxxxx', po_full_name: "110"},                {pm_name: "xxx支部",po_name: 'xxxxx', po_full_name: "110"},
-                {pm_name: "xxx支部",po_name: 'xxxxx', po_full_name: "110"},
-                {pm_name: "xxx支部",po_name: 'xxxxx', po_full_name: "110"},
-                {pm_name: "xxx支部",po_name: 'xxxxx', po_full_name: "110"},
-                {pm_name: "xxx支部",po_name: 'xxxxx', po_full_name: "110"},
-                {pm_name: "xxx支部",po_name: 'xxxxx', po_full_name: "110"},
-                {pm_name: "xxx支部",po_name: 'xxxxx', po_full_name: "110"},
-                {pm_name: "xxx支部",po_name: 'xxxxx', po_full_name: "110"},
-                {pm_name: "xxx支部",po_name: 'xxxxx', po_full_name: "110"},
-                {pm_name: "xxx支部",po_name: 'xxxxx', po_full_name: "110"},
-                {pm_name: "xxx支部",po_name: 'xxxxx', po_full_name: "110"},
-                {pm_name: "xxx支部",po_name: 'xxxxx', po_full_name: "110"},
-            ],
-        }
+        return {}
     }
 }
 </script>
@@ -79,6 +56,7 @@ export default {
         width: 20%;
     }
 }
+
 .rank-body {
     height: calc(100% - 40px);
     overflow: hidden;

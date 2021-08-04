@@ -2,8 +2,7 @@
 
     <div class="all">
         <div class="allTop">
-                <ScrollTable></ScrollTable>
-
+            <ScrollTable :activeList=tableData></ScrollTable>
         </div>
         <div class="allBottom">
             <CodeBlock :codeStr="code"></CodeBlock>
@@ -21,11 +20,63 @@ import CodeBlock from "./commonComponents/CodeBlock";
 export default {
     name: "A_4ScrollTable.vue",
     components: {
-        ScrollTable,CodeBlock
+        ScrollTable, CodeBlock
     },
     data() {
         return {
-            code: "<ScrollTable></ScrollTable>"
+            code: "<ScrollTable :activeList=tableData></ScrollTable>\n " +
+                "            tableData: [\n" +
+                "                {pm_name: \"xxx支部\", po_name: 'xxxxx', po_full_name: \"110\"},\n" +
+                "                {pm_name: \"xxx支部\", po_name: 'xxxxx', po_full_name: \"110\"},\n" +
+                "                {pm_name: \"xxx支部\", po_name: 'xxxxx', po_full_name: \"110\"},\n" +
+                "                {pm_name: \"xxx支部\", po_name: 'xxxxx', po_full_name: \"110\"},\n" +
+                "                {pm_name: \"xxx支部\", po_name: 'xxxxx', po_full_name: \"110\"},\n" +
+                "                {pm_name: \"xxx支部\", po_name: 'xxxxx', po_full_name: \"110\"},\n" +
+                "                {pm_name: \"xxx支部\", po_name: 'xxxxx', po_full_name: \"110\"},\n" +
+                "                {pm_name: \"xxx支部\", po_name: 'xxxxx', po_full_name: \"110\"},\n" +
+                "                {pm_name: \"xxx支部\", po_name: 'xxxxx', po_full_name: \"110\"},\n" +
+                "                {pm_name: \"xxx支部\", po_name: 'xxxxx', po_full_name: \"110\"},\n" +
+                "                {pm_name: \"xxx支部\", po_name: 'xxxxx', po_full_name: \"110\"},\n" +
+                "                {pm_name: \"xxx支部\", po_name: 'xxxxx', po_full_name: \"110\"},\n" +
+                "                {pm_name: \"xxx支部\", po_name: 'xxxxx', po_full_name: \"110\"},\n" +
+                "                {pm_name: \"xxx支部\", po_name: 'xxxxx', po_full_name: \"110\"},\n" +
+                "                {pm_name: \"xxx支部\", po_name: 'xxxxx', po_full_name: \"110\"},\n" +
+                "                {pm_name: \"xxx支部\", po_name: 'xxxxx', po_full_name: \"110\"},\n" +
+                "                {pm_name: \"xxx支部\", po_name: 'xxxxx', po_full_name: \"110\"},\n" +
+                "                {pm_name: \"xxx支部\", po_name: 'xxxxx', po_full_name: \"110\"},\n" +
+                "                {pm_name: \"xxx支部\", po_name: 'xxxxx', po_full_name: \"110\"},\n" +
+                "                {pm_name: \"xxx支部\", po_name: 'xxxxx', po_full_name: \"110\"},\n" +
+                "                {pm_name: \"xxx支部\", po_name: 'xxxxx', po_full_name: \"110\"},\n" +
+                "                {pm_name: \"xxx支部\", po_name: 'xxxxx', po_full_name: \"110\"},\n" +
+                "                {pm_name: \"xxx支部\", po_name: 'xxxxx', po_full_name: \"110\"},\n" +
+                "                {pm_name: \"xxx支部\", po_name: 'xxxxx', po_full_name: \"110\"},\n" +
+                "            ]",
+            tableData: [
+                {pm_name: "xxx支部", po_name: 'xxxxx', po_full_name: "110"},
+                {pm_name: "xxx支部", po_name: 'xxxxx', po_full_name: "110"},
+                {pm_name: "xxx支部", po_name: 'xxxxx', po_full_name: "110"},
+                {pm_name: "xxx支部", po_name: 'xxxxx', po_full_name: "110"},
+                {pm_name: "xxx支部", po_name: 'xxxxx', po_full_name: "110"},
+                {pm_name: "xxx支部", po_name: 'xxxxx', po_full_name: "110"},
+                {pm_name: "xxx支部", po_name: 'xxxxx', po_full_name: "110"},
+                {pm_name: "xxx支部", po_name: 'xxxxx', po_full_name: "110"},
+                {pm_name: "xxx支部", po_name: 'xxxxx', po_full_name: "110"},
+                {pm_name: "xxx支部", po_name: 'xxxxx', po_full_name: "110"},
+                {pm_name: "xxx支部", po_name: 'xxxxx', po_full_name: "110"},
+                {pm_name: "xxx支部", po_name: 'xxxxx', po_full_name: "110"},
+                {pm_name: "xxx支部", po_name: 'xxxxx', po_full_name: "110"},
+                {pm_name: "xxx支部", po_name: 'xxxxx', po_full_name: "110"},
+                {pm_name: "xxx支部", po_name: 'xxxxx', po_full_name: "110"},
+                {pm_name: "xxx支部", po_name: 'xxxxx', po_full_name: "110"},
+                {pm_name: "xxx支部", po_name: 'xxxxx', po_full_name: "110"},
+                {pm_name: "xxx支部", po_name: 'xxxxx', po_full_name: "110"},
+                {pm_name: "xxx支部", po_name: 'xxxxx', po_full_name: "110"},
+                {pm_name: "xxx支部", po_name: 'xxxxx', po_full_name: "110"},
+                {pm_name: "xxx支部", po_name: 'xxxxx', po_full_name: "110"},
+                {pm_name: "xxx支部", po_name: 'xxxxx', po_full_name: "110"},
+                {pm_name: "xxx支部", po_name: 'xxxxx', po_full_name: "110"},
+                {pm_name: "xxx支部", po_name: 'xxxxx', po_full_name: "110"},
+            ]
         }
     },
 }
