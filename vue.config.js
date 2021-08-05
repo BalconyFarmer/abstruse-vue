@@ -1,4 +1,5 @@
 module.exports = {
+    publicPath:"/abstruse-vue/",
     pages: {
         index: {
             entry: 'examples/main.js',
