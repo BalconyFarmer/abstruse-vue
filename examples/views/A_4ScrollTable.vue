@@ -2,7 +2,10 @@
 
     <div class="all">
         <div class="allTop">
-            <ScrollTable :activeList=tableData></ScrollTable>
+            <div style="width: 100%;height: 90%">
+                <ScrollTable :activeList=tableData></ScrollTable>
+
+            </div>
         </div>
         <div class="allBottom">
             <CodeBlock :codeStr="code"></CodeBlock>

@@ -55,8 +55,8 @@ export default {
     width: 100%;
     height: 100%;
     position: relative;
-    margin-left: 264px;
-    margin-top: 40px;
+    //margin-left: 264px;
+    //margin-top: 40px;
 
     .org-structure {
         height: 130%;
