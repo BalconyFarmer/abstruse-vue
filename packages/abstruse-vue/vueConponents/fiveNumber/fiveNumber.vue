@@ -51,15 +51,14 @@ export default {
 <style scoped lang="scss">
 
 .innerImg {
-    border: 4px solid yellow;
+    border: 1px solid gray;
     width: 100%;
     height: 100%;
     position: relative;
-    //margin-left: 264px;
-    //margin-top: 40px;
 
     .org-structure {
-        height: 130%;
+        width: 100%;
+        height: 100%;
     }
 
     .org-item {
@@ -106,37 +105,43 @@ export default {
             }
 
             .item-label {
-                color: #ffe453;
+                color: #158D3B;
                 font-size: 20px;
                 font-weight: bold;
                 position: absolute;
                 z-index: 2;
+                margin-top: 20px;
             }
         }
 
+        // 离退休
         &.org-item-1 {
-            left: 259px;
-            top: 172px;
+            right: 20px;
+            top: 250px;
         }
 
+        // 男性
         &.org-item-2 {
-            left: 246px;
-            top: 50px;
+            right: 20px;
+            top: 100px;
         }
 
+        // 本科以上
         &.org-item-3 {
-            top: -17px;
-            left: 128px;
+            top: 10px;
+            left: calc(50% - 30px);
         }
 
+        // 少数民族
         &.org-item-4 {
-            left: 13px;
-            top: 50px;
+            left: 20px;
+            top: 100px;
         }
 
+        // 资深老党员
         &.org-item-5 {
-            left: 17px;
-            top: 172px;
+            left: 20px;
+            top: 250px;
         }
     }
 }
