@@ -10,6 +10,7 @@
                     <div class="btns" @click="route = 8">ScrollTable</div>
                     <div class="btns" @click="route = 9">FiveNumber</div>
                     <div class="btns" @click="route = 10">ThreeNumInGrid</div>
+                    <div class="btns" @click="route = 11">table</div>
                 </div>
             </div>
             <div class="right">
@@ -43,6 +44,10 @@
                     <A_6ThreeNumInGrid></A_6ThreeNumInGrid>
                 </div>
 
+                <div v-if="route == 11" class="rightMain ">
+                    <A_7Table></A_7Table>
+                </div>
+
             </div>
         </div>
     </div>
@@ -64,10 +69,11 @@ import A_3PictureTree from "./views/A_3PictureTree";
 import A_4ScrollTable from "./views/A_4ScrollTable";
 import A_5FiveNumber from "./views/A_5FiveNumber";
 import A_6ThreeNumInGrid from "./views/A_6ThreeNumInGrid";
+import A_7Table from "./views/A_7Table";
 
 export default {
     components: {
-        A_6ThreeNumInGrid, A_5FiveNumber, A_4ScrollTable, A_0Init, ThreeNumInGrid, A_1PictureTree, A_2BarChart, A_3PictureTree
+        A_7Table,A_6ThreeNumInGrid, A_5FiveNumber, A_4ScrollTable, A_0Init, ThreeNumInGrid, A_1PictureTree, A_2BarChart, A_3PictureTree
     },
     data: function () {
         return {
