@@ -4,6 +4,7 @@
             <div class="left">
                 <div class="leftList">
                     <div class="btns" @click="route = 0">初始化</div>
+                    <div class="btns" @click="route = 15">rollImg</div>
                     <div class="btns" @click="route = 13">BreathNumber</div>
                     <div class="btns" @click="route = 1">WaterBall</div>
                     <div class="btns" @click="route = 2">barChart</div>
@@ -63,6 +64,10 @@
                     <A_8valueStrip></A_8valueStrip>
                 </div>
 
+                <div v-if="route == 15" class="rightMain ">
+                    <A_9rollImg></A_9rollImg>
+                </div>
+
             </div>
         </div>
     </div>
@@ -88,14 +93,15 @@ import A_7Table from "./views/A_7Table";
 import autoScrollImg from "../packages/abstruse-vue/vueConponents/autoScrollImg/autoScrollImg";
 import BreathNumber from "../packages/abstruse-vue/vueConponents/BreathNumber/BreathNumber";
 import A_8valueStrip from "./views/A_8valueStrip";
+import A_9rollImg from "./views/A_9rollImg";
 
 export default {
     components: {
-        A_8valueStrip,BreathNumber,A_7Table,A_6ThreeNumInGrid, A_5FiveNumber, A_4ScrollTable, A_0Init, ThreeNumInGrid, A_1PictureTree, A_2BarChart, A_3PictureTree,autoScrollImg
+        A_9rollImg,A_8valueStrip,BreathNumber,A_7Table,A_6ThreeNumInGrid, A_5FiveNumber, A_4ScrollTable, A_0Init, ThreeNumInGrid, A_1PictureTree, A_2BarChart, A_3PictureTree,autoScrollImg
     },
     data: function () {
         return {
-            route: 14,
+            route: 15,
         }
     },
     watch: {
