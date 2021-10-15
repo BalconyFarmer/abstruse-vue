@@ -1,15 +1,16 @@
 <template>
     <div class="item-info">
-        <div class="item-label">{{ 111 }}</div>
-        <div class="item-count">{{ 111 }}</div>
-        <div class="item-label">次</div>
+        <div class="item-label">{{ data.num1 }}</div>
+        <div class="item-count">{{ data.num2 }}</div>
+        <div class="item-label">{{ data.num3 }}</div>
         <img class="item-img" :src="require(`./img/ic_hx-1.png`)" alt="">
     </div>
 </template>
 
 <script>
 export default {
-    name: "rollImg"
+    name: "rollImg",
+    props: ["data"]
 }
 </script>
 
