@@ -1,16 +1,16 @@
 <template>
     <div class="base-item">
-<!--        <img src="./img/person-total.png" alt="">-->
         <img src="./img/person-total1.png" alt="">
-        <span class="num num-1">{{ 11 }}</span>
-        <span class="unit">个</span>
-        <p>抵边党组织</p>
+        <span class="num num-1">{{ data.num1 }}</span>
+        <span class="unit">{{ data.num2 }}</span>
+        <p>{{ data.num3 }}</p>
     </div>
 </template>
 
 <script>
 export default {
-    name: "BreathNumber.vue"
+    name: "BreathNumber.vue",
+    props: ["data"]
 }
 </script>
 

@@ -58,7 +58,7 @@
                 </div>
 
                 <div v-if="route == 13" class="rightMain ">
-                    <BreathNumber></BreathNumber>
+                    <A_11BreathNumber></A_11BreathNumber>
                 </div>
 
                 <div v-if="route == 14" class="rightMain ">
@@ -85,8 +85,7 @@ import A_0Init from "./views/A_0Init";
 import "../lib/index.css";
 
 import A_1PictureTree from "./views/A_1WaterBall";
-
-// import ThreeNumInGrid from "../packages/abstruse-vue/vueConponents/EchartInGrid/ThreeNumInGrid";
+import A_11BreathNumber from "./views/A_11BreathNumber";
 import {ThreeNumInGrid} from "../lib/index.common.js";
 
 import A_2BarChart from "./views/A_2BarChart";
@@ -103,7 +102,7 @@ import A_10Poker from "./views/A_10Poker";
 
 export default {
     components: {
-        A_10Poker,A_9rollImg,A_8valueStrip,BreathNumber,A_7Table,A_6ThreeNumInGrid, A_5FiveNumber, A_4ScrollTable, A_0Init, ThreeNumInGrid, A_1PictureTree, A_2BarChart, A_3PictureTree,autoScrollImg
+        A_11BreathNumber,A_10Poker,A_9rollImg,A_8valueStrip,BreathNumber,A_7Table,A_6ThreeNumInGrid, A_5FiveNumber, A_4ScrollTable, A_0Init, ThreeNumInGrid, A_1PictureTree, A_2BarChart, A_3PictureTree,autoScrollImg
     },
     data: function () {
         return {
