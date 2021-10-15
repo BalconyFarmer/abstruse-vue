@@ -13,9 +13,10 @@
                     <div class="btns" @click="route = 9">FiveNumber</div>
                     <div class="btns" @click="route = 10">ThreeNumInGrid</div>
                     <div class="btns" @click="route = 11">table</div>
-                    <div class="btns" @click="route = 12">autoScrollImg</div>
                     <div class="btns" @click="route = 14">valueStrip</div>
                     <div class="btns" @click="route = 16">poker</div>
+                    <div class="btns" @click="route = 12">autoScrollImg</div>
+
                 </div>
             </div>
             <div class="right">
