@@ -16,6 +16,7 @@
                     <div class="btns" @click="route = 14">valueStrip</div>
                     <div class="btns" @click="route = 16">poker</div>
                     <div class="btns" @click="route = 12">autoScrollImg</div>
+                    <div class="btns" @click="route = 17">Elementui</div>
 
                 </div>
             </div>
@@ -74,6 +75,10 @@
                     <A_10Poker></A_10Poker>
                 </div>
 
+                <div v-if="route == 17" class="rightMain ">
+                    <A_12ElementUI></A_12ElementUI>
+                </div>
+
             </div>
         </div>
     </div>
@@ -100,14 +105,30 @@ import BreathNumber from "../packages/abstruse-vue/vueConponents/BreathNumber/Br
 import A_8valueStrip from "./views/A_8valueStrip";
 import A_9rollImg from "./views/A_9rollImg";
 import A_10Poker from "./views/A_10Poker";
+import A_12ElementUI from "./views/A_12ElementUI";
 
 export default {
     components: {
-        A_11BreathNumber,A_10Poker,A_9rollImg,A_8valueStrip,BreathNumber,A_7Table,A_6ThreeNumInGrid, A_5FiveNumber, A_4ScrollTable, A_0Init, ThreeNumInGrid, A_1PictureTree, A_2BarChart, A_3PictureTree,autoScrollImg
+        A_12ElementUI,
+        A_11BreathNumber,
+        A_10Poker,
+        A_9rollImg,
+        A_8valueStrip,
+        BreathNumber,
+        A_7Table,
+        A_6ThreeNumInGrid,
+        A_5FiveNumber,
+        A_4ScrollTable,
+        A_0Init,
+        ThreeNumInGrid,
+        A_1PictureTree,
+        A_2BarChart,
+        A_3PictureTree,
+        autoScrollImg
     },
     data: function () {
         return {
-            route: 16,
+            route: 17,
         }
     },
     watch: {

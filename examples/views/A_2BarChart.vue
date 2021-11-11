@@ -14,8 +14,8 @@
 </template>
 
 <script>
-// import barChart from "../packages/abstruse-vue/vueConponents/singleRate/barChart";
-import {BarChart} from "../../lib/index.common.js";
+import BarChart from "../../packages/abstruse-vue/vueConponents/singleRate/barChart";
+// import {BarChart} from "../../lib/index.common.js";
 
 import CodeBlock from "./commonComponents/CodeBlock";
 
