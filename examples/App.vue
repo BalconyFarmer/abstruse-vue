@@ -3,20 +3,20 @@
         <div class="mainFirst">
             <div class="left">
                 <div class="leftList">
-                    <div class="btns" @click="route = 0">初始化</div>
-                    <div class="btns" @click="route = 15">rollImg</div>
-                    <div class="btns" @click="route = 13">BreathNumber</div>
-                    <div class="btns" @click="route = 1">WaterBall</div>
-                    <div class="btns" @click="route = 2">barChart</div>
-                    <div class="btns" @click="route = 7">PictureTree</div>
-                    <div class="btns" @click="route = 8">ScrollTable</div>
-                    <div class="btns" @click="route = 9">FiveNumber</div>
-                    <div class="btns" @click="route = 10">ThreeNumInGrid</div>
-                    <div class="btns" @click="route = 11">table</div>
-                    <div class="btns" @click="route = 14">valueStrip</div>
-                    <div class="btns" @click="route = 16">poker</div>
-                    <div class="btns" @click="route = 12">autoScrollImg</div>
-                    <div class="btns" @click="route = 17">Elementui</div>
+                  <div class="btns" @click="route = 0">初始化</div>
+                  <div class="btns" @click="route = 15">rollImg</div>
+                  <div class="btns" @click="route = 13">BreathNumber</div>
+                  <div class="btns" @click="route = 1">WaterBall</div>
+                  <div class="btns" @click="route = 2">barChart</div>
+                  <div class="btns" @click="route = 7">PictureTree</div>
+                  <div class="btns" @click="route = 8">ScrollTable</div>
+                  <div class="btns" @click="route = 9">FiveNumber</div>
+                  <div class="btns" @click="route = 10">ThreeNumInGrid</div>
+                  <div class="btns" @click="route = 11">table</div>
+                  <div class="btns" @click="route = 14">valueStrip</div>
+                  <div class="btns" @click="route = 16">poker</div>
+                  <div class="btns" @click="route = 12">autoScrollImg</div>
+                  <div class="btns" @click="route = 17">Elementui</div>
 
                 </div>
             </div>
@@ -128,7 +128,7 @@ export default {
     },
     data: function () {
         return {
-            route: 17,
+            route: 1,
         }
     },
     watch: {
