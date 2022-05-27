@@ -1,24 +1,60 @@
 功能预览:
-1. 旋转的数字
+
+1.旋转的数字
 
 ![](https://raw.githubusercontent.com/BalconyFarmer/abstruse-vue/main/readmePIC/1.gif)
 
-1. 呼吸的数字
+2呼吸的数字
 
 ![](https://raw.githubusercontent.com/BalconyFarmer/abstruse-vue/main/readmePIC/2.png)
 
-1. 水球的数字
-2. 进度条
-3. 照片树
-4. 滚动表单
-5. 五个数字
-6. 类似日历
-7. 静态表单
-8. 进度条2
-9. 翻页数字
-10. 滚动图片
-11. select
-    在线访问地址:
+3水球的数字
+
+![](https://raw.githubusercontent.com/BalconyFarmer/abstruse-vue/main/readmePIC/3.png)
+
+4进度条
+
+![](https://raw.githubusercontent.com/BalconyFarmer/abstruse-vue/main/readmePIC/4.png)
+
+5照片树
+
+![](https://raw.githubusercontent.com/BalconyFarmer/abstruse-vue/main/readmePIC/5.png)
+
+6滚动表单
+
+![](https://raw.githubusercontent.com/BalconyFarmer/abstruse-vue/main/readmePIC/6.png)
+
+7五个数字
+
+![](https://raw.githubusercontent.com/BalconyFarmer/abstruse-vue/main/readmePIC/7.png)
+
+8类似日历
+
+![](https://raw.githubusercontent.com/BalconyFarmer/abstruse-vue/main/readmePIC/8.png)
+
+9静态表单
+
+![](https://raw.githubusercontent.com/BalconyFarmer/abstruse-vue/main/readmePIC/9.png)
+
+10进度条2
+
+![](https://raw.githubusercontent.com/BalconyFarmer/abstruse-vue/main/readmePIC/10.png)
+
+11翻页数字
+
+![](https://raw.githubusercontent.com/BalconyFarmer/abstruse-vue/main/readmePIC/11.png)
+
+12滚动图片
+
+![](https://raw.githubusercontent.com/BalconyFarmer/abstruse-vue/main/readmePIC/12.png)
+
+13select
+
+![](https://raw.githubusercontent.com/BalconyFarmer/abstruse-vue/main/readmePIC/13.png)
+
+
+
+在线访问地址:
 
 https://balconyfarmer.github.io/abstruse-vue/dist/index.html
 
