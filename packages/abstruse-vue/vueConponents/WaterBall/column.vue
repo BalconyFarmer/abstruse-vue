@@ -21,9 +21,9 @@ export default {
           type: "liquidFill",
           // radius: '88%', // 水球大小
           shape: "rect",
-          center: ['50%', '50%'],
+          center: ['50%', '70%'],
           fontSize: 16,
-          data: [0.1, 0.11],
+          data: [0.1, 0.08],
           color: ["#7de5e9", "#57CEE1"],
           outline: {
             show: false
@@ -72,15 +72,13 @@ export default {
   .liquidBall {
     width: 100%;
     height: 100%;
-    border: #00FF00 1px solid;
-
   }
 
   .imgMy {
     position: absolute;
-    left: 0px;
+    left: -25px;
     top: 0px;
-    width: 100%;
+    width: 110%;
     height: 100%;
   }
 
