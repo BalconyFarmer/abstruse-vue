@@ -3,7 +3,6 @@
     <div class="all">
         <div class="allTop">
             <BarChart :width="'400'" :height="'40'" :color="'#89e20d'" :value="0.9"></BarChart>
-
         </div>
         <div class="allBottom">
             <CodeBlock :codeStr="code"></CodeBlock>
@@ -31,5 +30,10 @@ export default {
 </script>
 
 <style scoped>
-
+.allTop {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 </style>

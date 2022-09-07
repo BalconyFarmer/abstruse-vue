@@ -113,6 +113,7 @@ export default {
     height: 100%;
     position: relative;
     overflow-x: hidden;
+    color: white;
 
     .leftIcon {
         background-image: url("./img/left.png");
