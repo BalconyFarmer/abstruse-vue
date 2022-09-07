@@ -45,5 +45,11 @@ export default {
 
 <style scoped lang="scss">
 
+.allTop {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
 
 </style>

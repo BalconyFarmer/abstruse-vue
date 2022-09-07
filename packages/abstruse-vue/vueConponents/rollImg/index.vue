@@ -20,10 +20,8 @@ export default {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 180px;
     width: 180px;
     color: #fff;
-
     .item-label {
         font-size: 14px;
     }
